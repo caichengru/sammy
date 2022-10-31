@@ -1,0 +1,102 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\begin{verbatim}
+##  [1] "1. 根據師長在課堂上提供的參考碼，在「<-」的左邊是否可以用中文名稱當作是物件(某一個R環境裡的東西)的名字(請答「是」或是「否」，不用寫括號)？\n\n\n"                                                                                        
+##  [2] "2. 根據師長在課堂上提供的參考碼，師長建議一個R字可以協助把「.html」檔案變成「.pdf」檔案，當使用這一個字的時候，我們會在括號內提供幾個檔案名稱(請用阿拉伯數字作答)？\n\n\n"                                                               
+##  [3] "3. 根據師長在課堂上提供的參考碼，哪一個R字可以把「Numextract(\"D1234567\")」得到的「\"1234567\"」變成整數？\n\n\n"                                                                                                                       
+##  [4] "4. 根據師長在課堂上提供的參考碼，哪一個R字可以把「某一個字」讀到的「.xlsx」或是「.xls」檔案後的「物件(某一個R環境裡的東西)」變成「data.frame」？\n\n\n"                                                                                  
+##  [5] "5. 根據師長在課堂上提供的參考碼，當程式碼的「某一個字」讀到「.xlsx」或是「.xls」檔案之後，師長要求把「這一個物件(某一個R環境裡的東西)」變成「data.frame」，在那一個R字的括號裡面，師長把哪一個字設定為「FALSE」？\n\n\n"                 
+##  [6] "6. 根據師長在課堂上提供的參考碼，師長建議一個協助讀取「.xlsx」或是「.xls」檔案的套件，當程式需要此套件進入「RStudio」的時候(假設程式已經呼叫過一次了)，請問要用哪一個字？\n\n\n"                                                         
+##  [7] "7. 根據師長在課堂上提供的參考碼，師長建議哪一個R字可以協助把「.html」檔案變成「.pdf」檔案？\n\n\n"                                                                                                                                       
+##  [8] "8. 根據師長在課堂上提供的參考碼，哪一個R字可以協助取得某一個欄位的次數分配表？\n\n\n"                                                                                                                                                    
+##  [9] "9. 根據師長在課堂上提供的參考碼，哪一個R字可以協助「『重複執行』『產生檔案夾』這一個動作」？\n\n\n"                                                                                                                                      
+## [10] "10. 根據師長在課堂上提供的參考碼，哪一個R字可以協助讀取「.xlsx」或是「.xls」檔案？\n\n\n"                                                                                                                                                
+## [11] "11. 根據師長在課堂上提供的參考碼，類似這樣的一句話，「Q1[,]」，欄位名稱要放在「,」的「左邊」還是「右邊」(請用中文作答，不用寫括號)？\n\n\n"                                                                                              
+## [12] "12. 根據課堂上的要求，師長希望每一位同學開啟「學習本課程」的專案叫一樣的名字，然後把「師長開放出來的參考碼」跟「自行開發的參考碼」，甚至是「網路網友提供的參考碼」，都放在哪一個檔案夾內(請用英文作答)？\n\n\n"                          
+## [13] "13. 根據課堂上的要求，師長希望每一位同學開啟「學習本課程」的專案叫一樣的名字，然後把「各種管道找到、取得的參考文獻」，都放在哪一個檔案夾內(請用英文作答)？\n\n\n"                                                                        
+## [14] "14. 根據課堂上的要求，師長希望每一位同學開啟的專案，在哪一個檔案夾下方(請用中文作答)？\n\n\n"                                                                                                                                            
+## [15] "15. 根據師長在課堂上提供的參考碼，哪「一串符號」可以把隨機取得某一張表全部欄位名稱其中三個的答案，放入「vars」？\n\n\n"                                                                                                                  
+## [16] "16. 根據師長在課堂上提供的參考碼，哪一個R字可以把某一個整數設定為隨機種子？\n\n\n"                                                                                                                                                       
+## [17] "17. 根據師長在課堂上提供的參考碼，哪一個R字可以協助讀取「.rds」檔案？\n\n\n"                                                                                                                                                             
+## [18] "18. 根據課堂上的要求，師長希望每一位同學開啟「學習本課程」的專案叫一樣的名字，然後把「師長開放出來的數據集」跟「自行入校園收集到的數據集」，都放在哪一個檔案夾內(請用英文作答)？\n\n\n"                                                  
+## [19] "19. 根據師長在課堂上提供的參考碼，哪一個R字可以取得某一張表全部的「欄位名稱」？\n\n\n"                                                                                                                                                   
+## [20] "20. 根據課堂上的要求，師長希望每一位同學開啟的專案，叫什麼名字？\n\n\n"                                                                                                                                                                  
+## [21] "21. 根據師長在課堂上提供的參考碼，師長建議哪一個套件協助讀取「.xlsx」或是「.xls」檔案？\n\n\n"                                                                                                                                           
+## [22] "22. 根據師長在課堂上提供的參考碼，哪一個R字可以產生「新的檔案夾」？\n\n\n"                                                                                                                                                               
+## [23] "23. 根據師長在課堂上提供的參考碼，哪一個R字可以「隨機」取得某一張表全部欄位名稱的其中三個？\n\n\n"                                                                                                                                       
+## [24] "24. 根據師長在課堂上提供的參考碼，師長建議一個協助讀取「.xlsx」或是「.xls」檔案的套件，請問第一次呼叫此套件進入「RStudio」要用哪一個字？\n\n\n"                                                                                          
+## [25] "25. 根據師長在課堂上提供的參考碼，師長建議哪一個套件協助把「.html」檔案變成「.pdf」檔案？\n\n\n"                                                                                                                                         
+## [26] "26. 根據師長在課堂上提供的參考碼，在「.Rmd」檔案裡，如果要顯示產生答案的程式碼，哪一個英文字要設定為「TRUE」？\n\n\n"                                                                                                                    
+## [27] "27. 根據師長在課堂上提供的參考碼，如果執行過「vars <- c(\"使用英文教科書，修習財管困難的地方\", \"學習財金的基本知識，選修財管的目的為何\", \"出生月\")」，那這句話「vars[3]」會抓到「vars」的哪一個(請用中文作答，不用寫雙引號)？\n\n\n"
+## [28] "28. 根據師長在課堂上提供的參考碼，哪一個R字可以協助把「某一張表」存成「.rds」檔案？\n\n\n"                                                                                                                                               
+## [29] "29. 根據課堂上的要求，師長希望每一位同學開啟「學習本課程」的專案叫一樣的名字，然後準備一個「垃圾夾、回收桶檔案夾」，請問叫什麼名字(請用英文作答)？\n\n\n"                                                                                
+## [30] "30. 根據課堂上的要求，師長希望每一位同學開啟「學習本課程」的專案叫一樣的名字，然後把算出來的「次數分配表」，都放在「output」之下的哪一個檔案夾內(請用英文作答)？\n\n\n"
+\end{verbatim}
+
+\end{document}

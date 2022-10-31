@@ -1,0 +1,48 @@
+## 班級___    座號___    姓名___ 
+  
+`r out(1)`
+`r out(2)`
+`r out(3)`
+`r out(4)`
+`r out(5)`
+`r out(6)`
+`r out(7)`
+`r out(8)`
+`r out(9)`
+`r out(10)`
+`r out(11)`
+`r out(12)`
+`r out(13)`
+`r out(14)`
+`r out(15)`
+`r out(16)`
+`r out(17)`
+`r out(18)`
+`r out(19)`
+`r out(20)`
+`r out(21)`
+`r out(22)`
+`r out(23)`
+`r out(24)`
+`r out(25)`
+`r out(26)`
+`r out(27)`
+`r out(28)`
+`r out(29)`
+`r out(30)`
+--- 
+ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+@ 
+  
